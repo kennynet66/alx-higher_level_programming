@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """
-Prints the arguements received
+    Prints the arguements received
 """
 if __name__ == "__main__":
-    # Prints the number and list of arguments
     import sys
     length = len(sys.argv) - 1
     if length == 0:
