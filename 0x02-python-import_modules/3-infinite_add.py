@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""
+    Calculates the sum of the arguements
+"""
 if __name__ == "__main__":
-    # Gives the sum of all arguments
     import sys
     sum = 0
     for i in range(len(sys.argv) - 1):
