@@ -7,4 +7,3 @@ def square_matrix_simple(matrix=[]):
         new_matrix[in_dex] = list(map(lambda x: x**2, matrix[in_dex]))
 
     return (new_matrix)
-
