@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""A class MyInt that inherits from int:"""
+"""
+    A class MyInt that inherits from int:
+"""
 
 
 class MyInt(int):
@@ -12,4 +14,3 @@ class MyInt(int):
     def __ne__(self, other):
         """Override the inequality operator (!=)"""
         return super().__eq__(other)
-
