@@ -17,5 +17,11 @@ class Square(Rectangle):
     def __str__(self):
         """Return the print() and str() representation of a Rectangle."""
         string = "[" + str(self.__class__.__name__) + "] "
-        string += str(self.__size) + "/" + str(self.size)
+        string += str(self.__size) + "/" + str(self.__size)
         return string
+
+
+s = Square(13)
+
+print(s)
+print(s.area())
