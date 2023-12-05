@@ -20,8 +20,3 @@ class Square(Rectangle):
         string += str(self.__size) + "/" + str(self.__size)
         return string
 
-
-s = Square(13)
-
-print(s)
-print(s.area())
