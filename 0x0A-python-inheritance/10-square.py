@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 """
     A class Square that inherits from Rectangle (9-rectangle.py):
 """
