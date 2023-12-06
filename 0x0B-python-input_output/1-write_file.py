@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
         filename: Contains the name of the file to be written
         text: The text top be written to the file
     """
-    with open(filename, "w", encoding="utf-8") as myFile:
+    with open(filename, mode="w", encoding="utf-8") as myFile:
         myFile.write(text)
