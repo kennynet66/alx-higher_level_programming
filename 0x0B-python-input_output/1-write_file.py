@@ -6,6 +6,10 @@
 
 
 def write_file(filename="", text=""):
-    """Writes text to a file"""
+    """Writes text to a file
+    Args:
+        filename: Contains the name of the file to be written
+        text: The text top be written to the file
+    """
     with open(filename, "w", encoding="utf-8") as myFile:
         myFile.write(text)
