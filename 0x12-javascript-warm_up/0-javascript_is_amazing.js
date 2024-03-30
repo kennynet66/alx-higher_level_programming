@@ -1,1 +1,3 @@
-console.log('JavaScript is amazing')
+#!/usr/bin/node
+let evidence = "JavaScript is amazing";
+console.log(evidence)
